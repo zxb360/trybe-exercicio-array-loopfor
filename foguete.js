@@ -45,11 +45,45 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log(maior);
 //OUTRA FORMA========================
 //let b = 10
-let maior = Math.max(...numbers);
-console.log(maior);
+// let maior = Math.max(...numbers);
+// console.log(maior);
 
 //6- Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
-
-
+let valorImpar = []
+let count = 0
+// for(let impar of numbers){
+//     if(impar % 2 === 1){
+//         valorImpar.push(impar);
+//     } else {
+//         vazio
+//     }
+// }
+//console.log(valorImpar);
+//====================================
+// for(let i = 0;i < numbers.length; i += 1){
+//     if(numbers[i] % 2 === 1){
+//         count += 1
+//     } 
+// }
+// console.log(count);
 
 //7- Utilizando for, descubra qual o menor valor contido no array e imprima-o;
+
+//let menor = 200000;
+// for(let index = 0; index < numbers.length; index += 1){
+//     //menor.push(numbers[index])
+//     if(numbers[index] < menor){
+//         menor = numbers[index]
+//     }  
+// }
+// console.log(menor);
+// menor = Math.min(...numbers)
+// console.log(menor);
+
+
+// Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado;
+let nada = [1,2,3,4,5,6]
+for(let index = 1; index < nada.length; index+=1){
+    nada[index]
+}
+console.log("resultado: ", nada);
